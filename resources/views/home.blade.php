@@ -1,40 +1,50 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container pt-5 d-flex">
-        <div class="row">
-            <div class="alert-info alert d-flex col-4">
-                <img src="https://static10.tgstat.ru/channels/_100/a7/a76c0abe2b7b1b79e70f0073f43c3b44.jpg" style="width: 90px; height: 90px;">
-                <div class="pl-4">
-                    <h5><strong>Breaking mash</strong></h5>
-                    <p>@breakingmash</p>
-                    <p>Actualités</p>
+    <div class="container box pt-5">
+        <h3 align="center">Canaux Telegram francophones</h3><br />
+        <div class="panel panel-default">
+            <div class="panel-heading pb-2">Rechercher</div>
+            <div class="panel-body">
+                <div class="form-group pb-3">
+                    <input type="text" name="search" id="search" class="form-control" placeholder="Saisissez les mots-clés (nom, catégorie, description, ...)" />
                 </div>
-            </div>
 
-            <div class="alert-info alert d-flex col-5">
-                <img src="https://static10.tgstat.ru/channels/_100/a7/a76c0abe2b7b1b79e70f0073f43c3b44.jpg" style="width: 90px; height: 90px;">
-                <div class="pl-4">
-                    <h5><strong>Breaking mash</strong></h5>
-                    <p>@breakingmash</p>
-                    <p>Actualités</p>
-                </div>
-            </div>
+                <div class="container">
+                    <div class="row pt-2" id="chaines">
 
-            <div class="alert-info alert d-flex col-6">
-                <img src="https://static10.tgstat.ru/channels/_100/a7/a76c0abe2b7b1b79e70f0073f43c3b44.jpg" style="width: 90px; height: 90px;">
-                <div class="pl-4">
-                    <h5><strong>Breaking mash</strong></h5>
-                    <p>@breakingmash</p>
-                    <p>Actualités</p>
+                    </div>
                 </div>
+
+
+
             </div>
         </div>
-
-        @foreach($channel as $el)
-            <div class="alert alert-info">
-                <h3>{{ $el->url }}</h3>
-            </div>
-        @endforeach
     </div>
+<script>
+    $(document).ready(function(){
+
+        fetch_customer_data();
+
+        function fetch_customer_data(query = '')
+        {
+            $.ajax({
+                url:"{{ route('/.action') }}",
+                method:'GET',
+                data:{query:query},
+                dataType:'json',
+                success:function(data)
+                {
+                    $('#chaines').html(data.table_data);
+                }
+            })
+        }
+
+        $(document).on('keyup','#search', function () {
+            var query = $(this).val();
+            fetch_customer_data(query);
+        });
+    });
+</script>
+
 @endsection

@@ -119,6 +119,40 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/daverandom/libdns" />
+      <path value="$PROJECT_DIR$/vendor/danog/ipc" />
+      <path value="$PROJECT_DIR$/vendor/danog/tg-file-decoder" />
+      <path value="$PROJECT_DIR$/vendor/danog/magicalserializer" />
+      <path value="$PROJECT_DIR$/vendor/danog/libdns-json" />
+      <path value="$PROJECT_DIR$/vendor/danog/madelineproto" />
+      <path value="$PROJECT_DIR$/vendor/danog/tgseclib" />
+      <path value="$PROJECT_DIR$/vendor/danog/dns-over-https" />
+      <path value="$PROJECT_DIR$/vendor/danog/primemodule" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-parser" />
+      <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/vendor/tivie/htaccess-parser" />
+      <path value="$PROJECT_DIR$/vendor/kelunik/certificate" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/setiawanhu/laravel-madeline-proto" />
+      <path value="$PROJECT_DIR$/vendor/amphp/parallel" />
+      <path value="$PROJECT_DIR$/vendor/amphp/sync" />
+      <path value="$PROJECT_DIR$/vendor/amphp/hpack" />
+      <path value="$PROJECT_DIR$/vendor/amphp/amp" />
+      <path value="$PROJECT_DIR$/vendor/amphp/file" />
+      <path value="$PROJECT_DIR$/vendor/amphp/cache" />
+      <path value="$PROJECT_DIR$/vendor/amphp/http-client" />
+      <path value="$PROJECT_DIR$/vendor/amphp/http-client-cookies" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/amphp/windows-registry" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/amphp/dns" />
+      <path value="$PROJECT_DIR$/vendor/amphp/byte-stream" />
+      <path value="$PROJECT_DIR$/vendor/amphp/parser" />
+      <path value="$PROJECT_DIR$/vendor/amphp/process" />
+      <path value="$PROJECT_DIR$/vendor/amphp/serialization" />
+      <path value="$PROJECT_DIR$/vendor/amphp/http" />
+      <path value="$PROJECT_DIR$/vendor/amphp/socket" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kSLZI7bgUPPubYoD9bYsYbJkLH" />
@@ -149,6 +183,7 @@
       <updated>1605689099454</updated>
       <workItem from="1605689100472" duration="353000" />
       <workItem from="1605707084047" duration="951000" />
+      <workItem from="1605723866472" duration="1009000" />
     </task>
     <servers />
   </component>
