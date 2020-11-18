@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Tgram - Catalogue de canaux Telegram francophones
+@endsection
+
 @section('content')
     <div class="container box pt-5">
         <h3 align="center">Canaux Telegram francophones</h3><br />
@@ -10,7 +14,7 @@
                     <input type="text" name="search" id="search" class="form-control" placeholder="Saisissez les mots-clés (nom, catégorie, description, ...)" />
                 </div>
 
-                <div class="container">
+                <div class="container bg-white">
                     <div class="row pt-2" id="chaines">
 
                     </div>

@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
+@section('title')
+    Tgram - Ajouter un canal Telegram dans le catalogue
+@endsection
+
 @section('content')
-    <div class="container pt-4">
+    <div class="container pt-5">
         @if ($errors->any())
             <div class="alert alert-danger">
                 @foreach($errors->all() as $error)
@@ -25,7 +29,7 @@
         <form action="/add/submit" enctype="multipart/form-data" method="post">
             @csrf
 
-            <h1>Ajouter un canal</h1>
+            <h3 align="center">Ajouter un canal</h3><br />
             <h5 class="pb-3 pt-2">Si vous n'avez pas trouvé votre canal dans le catalogue, utilisez le formulaire pour l'ajouter.</h5>
             <div class="form-group row">
                 <label for="url" class="col-md-4 col-form-label">Adresse :</label>

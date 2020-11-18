@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cette page liste les meilleures chaînes Telegram. Toutes les chaînes sont classées par catégories: trouvez une chaîne de votre choix ou ajoutez la vôtre.">
+    <meta name="keywords" content="telegram,chaînes,canaux,channels,catalogue,messagerie,messenger,classement">
 
-    <title>Tgram</title>
+    <title>@yield('title')</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
     <link rel="shortcut icon" href="<?php echo asset('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/600px-Telegram_logo.svg.png'); ?>">
 
     <style>
@@ -27,6 +27,7 @@
     </style>
 </head>
 <body>
+
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a href="http://127.0.0.1:8000" class="navbar-brand d-flex align-items-center">
@@ -35,6 +36,9 @@
                 </div>
                 <div class="pl-0">Tgram</div>
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="http://127.0.0.1:8000/add" class="nav-link">Ajouter un canal</a></li>
