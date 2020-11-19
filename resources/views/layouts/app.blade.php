@@ -30,7 +30,7 @@
 
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
-            <a href="http://127.0.0.1:8000" class="navbar-brand d-flex align-items-center">
+            <a href="/" class="navbar-brand d-flex align-items-center">
                 <div>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/600px-Telegram_logo.svg.png" class="pr-3" style="height: 30px;">
                 </div>
@@ -41,7 +41,7 @@
             </button>
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="http://127.0.0.1:8000/add" class="nav-link">Ajouter un canal</a></li>
+                    <li class="nav-item"><a href="/add" class="nav-link">Ajouter un canal</a></li>
                 </ul>
             </div>
         </div>
