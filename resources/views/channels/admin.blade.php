@@ -8,6 +8,8 @@
             <form action="{{ route('accept-channel', $el->id) }}" method="post">
                 @csrf
 
+                @method('POST')
+
                 <label for="name">
                     <h1><input value="{{$el->name}}" type="text" name="name" id="name" class="form-control"></h1>
                 </label>
