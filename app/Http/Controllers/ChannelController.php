@@ -120,8 +120,8 @@ class ChannelController extends Controller
     public function accept(Request $req, $id){
         $channel = Channel::find($id);
         $channel->valid = true;
-        $channel->description = $req->input('description');
-        $channel->name = $req->input('name');
+        $channel->description = $req->get('description');
+        $channel->name = $req->get('name');
         $channel->save();
 
         return redirect()->route('admin');
@@ -129,6 +129,6 @@ class ChannelController extends Controller
 
     public function reject($id){
         Channel::find($id)->delete();
-        return redirect()->route('admin', $id);
+        return redirect()->route('admin');
     }
 }
