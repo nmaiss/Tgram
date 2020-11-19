@@ -10,7 +10,7 @@ Route::get('/add', function () {
 });
 
 
-Route::post('/admin/{id}/submit', 'App\Http\Controllers\ChannelController@accept')->name('accept-channel');
+Route::post('/admin/{id}', 'App\Http\Controllers\ChannelController@accept')->name('accept-channel');
 
 Route::post('/add/submit/', 'App\Http\Controllers\ChannelController@submit');
 
