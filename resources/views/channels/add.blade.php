@@ -54,7 +54,8 @@
                     <option>Sciences</option>
                     <option>Musique</option>
                     <option>Business</option>
-                    <option>Psychologie</option>
+                    <option>Pratique</option>
+                    <option>Santé et psychologie</option>
                     <option>Marketing</option>
                     <option>Films et séries</option>
                     <option>Littérature</option>
