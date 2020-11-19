@@ -56,6 +56,7 @@
                     <option>Business</option>
                     <option>Pratique</option>
                     <option>Animé et manga</option>
+                    <option>Éducation</option>
                     <option>Santé et psychologie</option>
                     <option>Marketing</option>
                     <option>Films et séries</option>
