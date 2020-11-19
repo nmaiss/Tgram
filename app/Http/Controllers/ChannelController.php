@@ -45,7 +45,7 @@ class ChannelController extends Controller
         $channel->valid = false;
         $channel->save();
         $url = $messages['full_chat']['chat_photo'];
-        \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, '/public/channels/' . $channel_url . '.jpg');
+        \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, '../home/forge/default/public/storage/channels' . $channel_url . '.jpg');
         return redirect('/add')->with('success', 'Le canal va bientôt être ajouté.');
     }
 
