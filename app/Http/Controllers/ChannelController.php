@@ -46,7 +46,7 @@ class ChannelController extends Controller
         $channel->save();
         $url = $messages['full_chat']['chat_photo'];
         try {
-            \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, '../storage/app/public/channels/' . $channel_url . '.jpg');
+            \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, 'storage/app/public/channels/' . $channel_url . '.jpg');
         }catch (\Exception $e){
 
         }
