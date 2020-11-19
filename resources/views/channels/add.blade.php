@@ -55,6 +55,7 @@
                     <option>Musique</option>
                     <option>Business</option>
                     <option>Pratique</option>
+                    <option>Animé et manga</option>
                     <option>Santé et psychologie</option>
                     <option>Marketing</option>
                     <option>Films et séries</option>
