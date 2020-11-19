@@ -9,6 +9,7 @@
                 @csrf
 
                 @method('POST')
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                 <label for="name">
                     <h1><input value="{{$el->name}}" type="text" name="name" id="name" class="form-control"></h1>
