@@ -44,8 +44,11 @@ class ChannelController extends Controller
         $channel->verified = $messages['chats']['0']['verified'];
         $channel->valid = false;
         $channel->save();
-        $url = $messages['full_chat']['chat_photo'];
-        \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, 'storage/channels/' . $channel_url . '.jpg');
+        try {
+            $url = $messages['full_chat']['chat_photo'];
+            \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, 'storage/channels/' . $channel_url . '.jpg');
+        }catch (\Exception $e){
+        }
         return redirect('/add')->with('success', 'Le canal va bientôt être ajouté.');
     }
 
