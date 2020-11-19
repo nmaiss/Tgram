@@ -117,12 +117,12 @@ class ChannelController extends Controller
         return view('channels.admin', ['data' => $channel->all()->where('valid', '0')]);
     }
 
-    public function accept($id){
-        /*$channel = Channel::find($id);
+    public function accept(Request $req, $id){
+        $channel = Channel::find($id);
         $channel->valid = true;
         $channel->description = $req->input('description');
         $channel->name = $req->input('name');
-        $channel->save();*/
+        $channel->save();
 
         return redirect()->route('admin');
     }
