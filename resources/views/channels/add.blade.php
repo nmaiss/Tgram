@@ -48,6 +48,7 @@
                     <option>Blogs</option>
                     <option>Technologie</option>
                     <option>Humour</option>
+                    <option>Trading</option>
                     <option>Politique et économie</option>
                     <option>Crypto-monnaies</option>
                     <option>Sciences</option>
@@ -58,6 +59,7 @@
                     <option>Films et séries</option>
                     <option>Littérature</option>
                     <option>Sport</option>
+                    <option>Telegram</option>
                     <option>Art et photo</option>
                     <option>Mode et beauté</option>
                     <option>Jeux et applications</option>
