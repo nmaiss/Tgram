@@ -5,7 +5,7 @@
 <div class="container p-5">
     @foreach($data as $el)
         <div class="alert alert-info">
-            <form action="/admin/{{ $el->id }}"  enctype="multipart/form-data" method="post">
+            <form action="/admin/{{ $el->id }}/accept"  enctype="multipart/form-data" method="post">
                 @csrf
 
                 <label for="name">
