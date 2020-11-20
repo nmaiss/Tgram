@@ -19,6 +19,7 @@
                 <p>{{ $el->members }} membres</p>
                 <p><small>{{ $el->created_at }}</small></p>
                 <a href="{{ route('reject-channel', $el->id) }}">Rejeter</a>
+                <input type="submit" name="submit">
                 <button class="btn btn-success" type="submit">Accepter</button>
             </form>
         </div>
