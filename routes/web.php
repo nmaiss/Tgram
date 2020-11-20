@@ -9,12 +9,11 @@ Route::get('/add', function () {
     return view('channels.add');
 });
 
-
 Route::post('/add/submit', 'App\Http\Controllers\ChannelController@submit');
 
 Route::get('/admin', 'App\Http\Controllers\ChannelController@allData')->name('admin');
 
-Route::post('/admin/accept-chan', 'App\Http\Controllers\ChannelController@accept');
+Route::post('/admin/acceptch', 'App\Http\Controllers\ChannelController@acceptch');
 
 Route::get('/admin/{id}/reject', 'App\Http\Controllers\ChannelController@reject')->name('reject-channel');
 
