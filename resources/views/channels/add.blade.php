@@ -26,7 +26,7 @@
             </div>
         @endif
 
-        <form action="/add/submit" enctype="multipart/form-data" method="post">
+        <form action="/add/submit" enctype="multipart/form-data" method="get">
             @csrf
 
             <h3 align="center">Ajouter un canal</h3><br />
