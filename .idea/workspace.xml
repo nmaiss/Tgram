@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0643099b-2a8b-45df-9095-ef3210d0c4c1" name="Default Changelist" comment="" />
+    <list default="true" id="0643099b-2a8b-45df-9095-ef3210d0c4c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MadelineProto.log" beforeDir="false" afterPath="$PROJECT_DIR$/MadelineProto.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,6 +184,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -203,6 +206,7 @@
       <workItem from="1605723866472" duration="1009000" />
       <workItem from="1605800556095" duration="2699000" />
       <workItem from="1605804417532" duration="6151000" />
+      <workItem from="1605902363595" duration="2465000" />
     </task>
     <servers />
   </component>
@@ -230,5 +234,21 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605689234058" />
+    <state x="734" y="273" width="513" height="568" key="NewPhpClassDialog" timestamp="1605904243926">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="734" y="273" width="513" height="568" key="NewPhpClassDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605904243926" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1605904218974">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605904218974" />
+    <state x="777" y="468" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605905124036">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="777" y="468" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605905124036" />
+    <state x="686" y="162" width="620" height="783" key="find.popup" timestamp="1605904277439">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="686" y="162" width="620" height="783" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1605904277439" />
   </component>
 </project>
