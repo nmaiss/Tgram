@@ -20,7 +20,7 @@
                 <p><small>{{ $el->created_at }}</small></p>
                 <input type="hidden" value="{{$el->id}}" name="id">
                 <a href="{{ route('reject-channel', $el->id) }}">Rejeter</a>
-                <button class="btn btn-success">Accepter</button>
+                <input type="submit">
             </form>
         </div>
     @endforeach
