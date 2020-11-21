@@ -50,7 +50,6 @@ class ChannelController extends Controller
             \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, 'storage/channels/' . $channel_url . '.jpg');
         }catch (\Exception $e){
         }
-        $response = Messages::sendMessage('@nicolas', "new channel");
         return redirect('/add')->with('success', 'Le canal va bientôt être ajouté.');
     }
 
