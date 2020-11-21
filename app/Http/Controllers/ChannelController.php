@@ -117,9 +117,9 @@ class ChannelController extends Controller
         return view('channels.admin', ['data' => $channel->all()->where('valid', '0')]);
     }
 
-    public function acceptch(Request $req){
+    public function accepter(Request $req){
         dd($req);
-        $channel = Channel::find($id);
+        $channel = Channel::find($req->input('id'));
         $channel->valid = true;
         $channel->description = $req->input('description');
         $channel->name = $req->input('name');
