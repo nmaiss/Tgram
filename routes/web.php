@@ -11,9 +11,9 @@ Route::get('/add', function () {
 
 Route::post('/add/submit', 'App\Http\Controllers\ChannelController@submit');
 
-Route::get('/administ', 'App\Http\Controllers\ChannelController@allData')->name('admin');
+Route::get('/admin', 'App\Http\Controllers\ChannelController@allData')->name('admin');
 
-Route::any('/administ/accepter', 'App\Http\Controllers\ChannelController@accepter');
+Route::any('/admin/accept', 'App\Http\Controllers\ChannelController@accept');
 
-Route::get('/administ/{id}/reject', 'App\Http\Controllers\ChannelController@reject')->name('reject-channel');
+Route::get('/admin/{id}/reject', 'App\Http\Controllers\ChannelController@reject')->name('reject-channel');
 
