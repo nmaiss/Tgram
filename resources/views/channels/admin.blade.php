@@ -13,7 +13,7 @@
                 </label>
                 <a href="https://t.me/"><h5>t.me/{{ $el->url }}</h5></a>
                 <label for="description">
-                    <textarea name="description" id="description" class="form-control" >{{$el->description}}</textarea>
+                    <textarea name="description" id="description" class="form-control" style="height: 400px; width: 100%; >{{$el->description}}</textarea>
                 </label>
 
                 <p>{{ $el->members }} membres</p>

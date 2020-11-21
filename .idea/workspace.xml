@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0643099b-2a8b-45df-9095-ef3210d0c4c1" name="Default Changelist" comment="new categories">
-      <change beforePath="$PROJECT_DIR$/resources/views/channels/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channels/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/channels/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channels/admin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +226,7 @@
       <workItem from="1605804417532" duration="6151000" />
       <workItem from="1605902363595" duration="10669000" />
       <workItem from="1605960238247" duration="1448000" />
-      <workItem from="1605973064457" duration="491000" />
+      <workItem from="1605973064457" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="debug">
       <created>1605905233452</created>
@@ -445,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605973117093</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="new categories">
+      <created>1605973558748</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1605973558748</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,10 +510,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605904218974" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605973121494">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605973563057">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605973121494" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605973563057" />
     <state x="777" y="468" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605905124036">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
