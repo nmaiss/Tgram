@@ -18,7 +18,7 @@
 
                 <p>{{ $el->members }} membres</p>
                 <p><small>{{ $el->created_at }}</small></p>
-                <input type="hidden" value="{{$el->id}}" name="id">
+                <input type="hidden" value="{{$el->id}}" name="id" id="id">
                 <a href="{{ route('reject-channel', $el->id) }}">Rejeter</a>
 
                 <div class="row pt-3">
