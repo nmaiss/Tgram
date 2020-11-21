@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0643099b-2a8b-45df-9095-ef3210d0c4c1" name="Default Changelist" comment="debug">
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MadelineProto.log" beforeDir="false" afterPath="$PROJECT_DIR$/MadelineProto.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +224,7 @@
       <workItem from="1605723866472" duration="1009000" />
       <workItem from="1605800556095" duration="2699000" />
       <workItem from="1605804417532" duration="6151000" />
-      <workItem from="1605902363595" duration="5708000" />
+      <workItem from="1605902363595" duration="6097000" />
     </task>
     <task id="LOCAL-00001" summary="debug">
       <created>1605905233452</created>
@@ -275,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605948840728</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="debug">
+      <created>1605949146834</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605949146834</updated>
+    </task>
+    <task id="LOCAL-00009" summary="debug">
+      <created>1605949255329</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605949255329</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,10 +339,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605904218974" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605948845388">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605949258870">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605948845388" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605949258870" />
     <state x="777" y="468" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605905124036">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
