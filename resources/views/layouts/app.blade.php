@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Cette page liste les meilleures chaînes Telegram. Toutes les chaînes sont classées par catégories: trouvez une chaîne de votre choix ou ajoutez la vôtre.">
-    <meta name="keywords" content="telegram,chaînes,canaux,channels,catalogue,messagerie,messenger,classement">
+    <meta name="keywords" content="telegram,chaînes,canaux,channels,catalogue,messagerie,messenger,classement, canal,français,francophone, chaîne, canal, channel, annuaire">
 
     <title>@yield('title')</title>
 
