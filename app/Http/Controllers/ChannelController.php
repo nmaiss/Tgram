@@ -6,6 +6,7 @@ use App\Models\Channel;
 use danog\MadelineProto\Exception;
 use Hu\MadelineProto\Facades\Messages;
 use Hu\MadelineProto\MadelineProto;
+use Hu\MadelineProto\TelegramObject;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -50,6 +51,13 @@ class ChannelController extends Controller
             \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, 'storage/channels/' . $channel_url . '.jpg');
         }catch (\Exception $e){
         }
+
+        $payload = new TelegramObject();
+        $payload->peer = '@nicolas';
+        $payload->message = 'new channel';
+
+        Messages::sendMessage($payload);
+
         return redirect('/add')->with('success', 'Le canal va bientôt être ajouté.');
     }
 

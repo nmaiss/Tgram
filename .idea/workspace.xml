@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643099b-2a8b-45df-9095-ef3210d0c4c1" name="Default Changelist" comment="google ads">
+    <list default="true" id="0643099b-2a8b-45df-9095-ef3210d0c4c1" name="Default Changelist" comment="notification new channel">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +224,7 @@
       <workItem from="1605723866472" duration="1009000" />
       <workItem from="1605800556095" duration="2699000" />
       <workItem from="1605804417532" duration="6151000" />
-      <workItem from="1605902363595" duration="10041000" />
+      <workItem from="1605902363595" duration="10383000" />
     </task>
     <task id="LOCAL-00001" summary="debug">
       <created>1605905233452</created>
@@ -394,7 +394,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605955579555</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="notification new channel">
+      <created>1605957401302</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605957401302</updated>
+    </task>
+    <task id="LOCAL-00026" summary="notification new channel">
+      <created>1605957571970</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605957571970</updated>
+    </task>
+    <task id="LOCAL-00027" summary="notification new channel">
+      <created>1605957611601</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605957611601</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +439,8 @@
     <MESSAGE value="adsense" />
     <MESSAGE value="keywords update" />
     <MESSAGE value="google ads" />
-    <option name="LAST_COMMIT_MESSAGE" value="google ads" />
+    <MESSAGE value="notification new channel" />
+    <option name="LAST_COMMIT_MESSAGE" value="notification new channel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605800684148">
@@ -449,10 +471,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605904218974" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605955584287">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605957618944">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605955584287" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605957618944" />
     <state x="777" y="468" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605905124036">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
