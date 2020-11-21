@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Channel;
 use danog\MadelineProto\Exception;
+use Hu\MadelineProto\Facades\Messages;
 use Hu\MadelineProto\MadelineProto;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -49,6 +50,7 @@ class ChannelController extends Controller
             \Hu\MadelineProto\Facades\MadelineProto::getClient()->downloadToFile($url, 'storage/channels/' . $channel_url . '.jpg');
         }catch (\Exception $e){
         }
+        Messages::sendMessage('@nicolas', "new channel");
         return redirect('/add')->with('success', 'Le canal va bientôt être ajouté.');
     }
 
