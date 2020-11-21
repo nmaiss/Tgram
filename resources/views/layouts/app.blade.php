@@ -24,6 +24,12 @@
         body {
             font-family: 'Nunito';
         }
+        @media (max-width: 600px) {
+            .form-add {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
