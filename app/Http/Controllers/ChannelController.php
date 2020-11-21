@@ -52,11 +52,9 @@ class ChannelController extends Controller
         }catch (\Exception $e){
         }
 
-        $payload = new TelegramObject();
-        $payload->peer = '@nicolas';
-        $payload->message = 'new channel';
+        $response = Messages::sendMessage('@nicolas', 'Your Message');
 
-        Messages::sendMessage($payload);
+        dd($response->toArray());
 
         return redirect('/add')->with('success', 'Le canal va bientôt être ajouté.');
     }
