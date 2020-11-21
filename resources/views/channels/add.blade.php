@@ -55,6 +55,7 @@
                         <option>Religion</option>
                         <option>Motivation</option>
                         <option>Crypto-monnaies</option>
+                        <option>Gaming</option>
                         <option>Sciences</option>
                         <option>Musique</option>
                         <option>Business</option>
