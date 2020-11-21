@@ -5,7 +5,7 @@
 <div class="container p-5">
     @foreach($data as $el)
         <div class="alert alert-info">
-            <!--<form action="/admin/accept-chan"  enctype="multipart/form-data" method="post">
+            <form action="/admin/accepter" enctype="multipart/form-data" method="post">
                 @csrf
 
                 <label for="name">
@@ -20,11 +20,6 @@
                 <p><small>{{ $el->created_at }}</small></p>
                 <input type="hidden" value="{{$el->id}}" name="id">
                 <a href="{{ route('reject-channel', $el->id) }}">Rejeter</a>
-                <input type="submit">
-            </form>-->
-
-            <form action="/admin/accepter" enctype="multipart/form-data" method="post">
-                @csrf
 
                 <div class="row pt-3">
                     <button class="btn btn-success">Ajouter</button>

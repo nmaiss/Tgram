@@ -118,7 +118,6 @@ class ChannelController extends Controller
     }
 
     public function accepter(Request $req){
-        dd($req);
         $channel = Channel::find($req->input('id'));
         $channel->valid = true;
         $channel->description = $req->input('description');
