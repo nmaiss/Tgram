@@ -52,10 +52,6 @@ class ChannelController extends Controller
         }catch (\Exception $e){
         }
 
-        $response = Messages::sendMessage('@nicolas', 'Your Message');
-
-        dd($response->toArray());
-
         return redirect('/add')->with('success', 'Le canal va bientôt être ajouté.');
     }
 
