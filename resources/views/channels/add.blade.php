@@ -50,6 +50,10 @@
                         <option>Humour</option>
                         <option>Trading</option>
                         <option>Politique et économie</option>
+                        <option>Travail</option>
+                        <option>Informatique</option>
+                        <option>Religion</option>
+                        <option>Motivation</option>
                         <option>Crypto-monnaies</option>
                         <option>Sciences</option>
                         <option>Musique</option>
