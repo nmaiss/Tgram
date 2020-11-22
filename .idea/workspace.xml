@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0643099b-2a8b-45df-9095-ef3210d0c4c1" name="Default Changelist" comment="new categories">
-      <change beforePath="$PROJECT_DIR$/resources/views/channels/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channels/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +228,7 @@
       <workItem from="1605902363595" duration="10669000" />
       <workItem from="1605960238247" duration="1448000" />
       <workItem from="1605973064457" duration="1133000" />
+      <workItem from="1605988014303" duration="3048000" />
     </task>
     <task id="LOCAL-00001" summary="debug">
       <created>1605905233452</created>
